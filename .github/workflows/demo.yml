@@ -1,0 +1,10 @@
+name: first actions
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      — name: Prin to console
+        run: echo Hello
+
+
